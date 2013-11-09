@@ -1,70 +1,53 @@
 
 <!DOCTYPE HTML>
+
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>String vs Int: The battle for Palindrome Plains - Life seen in bits of 1 and 0</title>
-    <meta name="author" content="Constantin-Alexandru Tudorica">
-    
-	<meta name="description" content="I have a homework for the University in which I have to say if a number is a palindrome or not. So I was wondering which method is going to be faster &hellip;">
+	<meta name="author" content="Constantin-Alexandru Tudorica">
+
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="String vs Int: The Battle for Palindrome Plains I have a homework for the University in which I have to say if a number is a palindrome or not. So I &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href="/atom.xml" rel="alternate" title="Life seen in bits of 1 and 0" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.ico" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-
-    <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-    <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
-
-    <!-- remove or comment it to disable ajaxification -->   
-    <script src="/javascripts/ajaxify.js"></script>
-   
-    
-    
+	
+	<link rel="canonical" href="http://tudalex.github.io/blog/2010/10/31/string-vs-int-the-battle-for-palindrome-plains/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
 
 </head>
 
 
 <body>
-    <div id="wrapper">
-    <header id="header" class="inner"><!-- for more effects see _animate.scss -->
-<h1 class="animated bounceInDown">
-    <div id="headerbg">
-        Constantin-Alexandru Tudorica
-    </div>
-</h1>
-<br>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	<script src="/javascripts/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+</div>
 
-<ul id="social-links" style="text-align:center">
-  
-  <!-- GitHub -->
-  <li>
-  <a href="https://github.com/tudalex" class="github" title="Github"></a>
-  </li>
-  
-  
-  
-  
-  <!-- Twitter -->
-  <li>
-  <a href="http://www.twitter.com/tudalex" class="twitter" title="Twitter"></a>
-  </li>
-  
-  
-  
-  
-  
-</ul>
-
-
-<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
+<nav id="main-nav"><!-- use full url including 'index.html' for navigation bar if you are using ajax -->
 <ul id="nav">
 	<li id="ajax"><a href="/index.html">Home</a></li>
 	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
@@ -80,17 +63,41 @@
         
 </ul>
 
-
-
-
-</header>
-
-<div id="toload">
-<!-- begin toload --> 
-    <div id="content" class="inner">
-        <article class="post">
-	<h2 class="title">String vs Int: The Battle for Palindrome Plains</h2>
-	<div class="entry-content"><p>I have a homework for the University in which I have to say if a number is a palindrome or not. So I was wondering which method is going to be faster? Reading it as a string and checking it character by character or reading it as a int and comparing it to it’s reverse? 
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+			<a class="twitter" href="http://twitter.com/tudalex" title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href="https://github.com/tudalex" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">String vs Int: The Battle for Palindrome Plains</h1>
+	<div class="entry-content" itemprop="articleBody"><p>I have a homework for the University in which I have to say if a number is a palindrome or not. So I was wondering which method is going to be faster? Reading it as a string and checking it character by character or reading it as a int and comparing it to it’s reverse? 
 INT
 Pros: Faster checking
 Cons: Had to generate the reverse of it which included using the % (mod) operator which we all know is time consuming
@@ -102,11 +109,6 @@ I made an archive with all the scripts and the random number generator, you can 
 I am pretty sure that I can make a way in which I can find the length of the string from reading it, without reading character by character. What do you say?</p>
 </div>
 
-<div class="meta">
-	
-		<span class="comments"><a href="/blog/2010/10/31/string-vs-int-the-battle-for-palindrome-plains/#disqus_thread">Comments</a></span>
-	
-</div>
 </article>
 
 	<div class="share">
@@ -126,10 +128,9 @@ I am pretty sure that I can make a way in which I can find the length of the s
 </div>
 
 
-
-    </div>
-    <footer id="footer">
-    <div style="display:inline">
+</div>
+			</div>
+			<footer id="footer" class="inner"><div style="display:inline">
     Copyright &copy; 2013
 
     Constantin-Alexandru Tudorica
@@ -137,9 +138,8 @@ I am pretty sure that I can make a way in which I can find the length of the s
     Theme <a href="http://github.com/panks/fabric">fabric</a> by <a href="http://panks.me">Pankaj Kumar</a>
 </div>
 
-
-    </footer>
-    <script src="/javascripts/fabric.js"></script>
+Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
+			<script src="/javascripts/fabric.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 (function($){
@@ -164,15 +164,7 @@ I am pretty sure that I can make a way in which I can find the length of the s
 
 
 
-
-<!-- end toload --> 
-</div>
-</div>
-<script src="/javascripts/jquery.ui.totop.js" type="text/javascript"></script>
-<script type="text/javascript">
-/*<![CDATA[*/
-;(function($){$().UItoTop({easingType:'easeOutCirc'});})(jQuery); 
-/*]]>*/
-</script><!-- remove it to remove the scroll to top button -->
+		</div>
+	</div>
 </body>
 </html>
