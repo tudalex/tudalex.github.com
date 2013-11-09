@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Life seen in bits of 1 and 0]]></title>
+  <link href="http://tudalex.github.io/atom.xml" rel="self"/>
+  <link href="http://tudalex.github.io/"/>
+  <updated>2013-11-09T21:38:45+02:00</updated>
+  <id>http://tudalex.github.io/</id>
+  <author>
+    <name><![CDATA[Constantin-Alexandru Tudorica]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating from Tumblr to Octopress]]></title>
+    <link href="http://tudalex.github.io/blog/2013/11/09/test/"/>
+    <updated>2013-11-09T14:49:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2013/11/09/test</id>
+    <content type="html"><![CDATA[<p>Testing 123</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CTFtime.org / All about CTF]]></title>
+    <link href="http://tudalex.github.io/blog/2013/05/30/ctftime-org-all-about-ctf/"/>
+    <updated>2013-05-30T00:00:00+03:00</updated>
+    <id>http://tudalex.github.io/blog/2013/05/30/ctftime-org-all-about-ctf</id>
+    <content type="html"><![CDATA[<p>CTFtime.org / All about CTFCTF teams ratings, CTF archive, CTF writeups
+I’ve been entertained in the past months reading about CTF competitions after a short one organized as part of our Operating Systems course. I’ve found this awesome website that gathers all the data regarding CTF competitions.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What type are you?]]></title>
+    <link href="http://tudalex.github.io/blog/2011/07/12/what-type-are-you/"/>
+    <updated>2011-07-12T00:00:00+03:00</updated>
+    <id>http://tudalex.github.io/blog/2011/07/12/what-type-are-you</id>
+    <content type="html"><![CDATA[<p>What type are you?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Status Report 28/6/2011]]></title>
+    <link href="http://tudalex.github.io/blog/2011/06/28/status-report-28-6-2011/"/>
+    <updated>2011-06-28T00:00:00+03:00</updated>
+    <id>http://tudalex.github.io/blog/2011/06/28/status-report-28-6-2011</id>
+    <content type="html"><![CDATA[<p>For the last 2 days I’ve worked on integrating with the installer engine.
+Yesterday I’ve tried using some of the other engines made for the console or gui.
+The console installer failed to install (or I didn’t know how to use it, but often triggered a Segmentation Fault). And after many attempts the gui installer engine is well too integrated in the gui to adapt it easily.
+So today I tried to use the installerengine class, but I have problems, cause it doesn’t want to parse a config file from the web. Working on it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ACM Regionals Await Us]]></title>
+    <link href="http://tudalex.github.io/blog/2011/06/26/acm-regionals-await-us/"/>
+    <updated>2011-06-26T00:00:00+03:00</updated>
+    <id>http://tudalex.github.io/blog/2011/06/26/acm-regionals-await-us</id>
+    <content type="html"><![CDATA[<p>Our team Hakuna Matata (Iacob Radu, Gilca Mircea and me) qualified to the next phase of the ACM ICPC contest. Wish us Luck!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GSoC]]></title>
+    <link href="http://tudalex.github.io/blog/2011/06/15/gsoc/"/>
+    <updated>2011-06-15T00:00:00+03:00</updated>
+    <id>http://tudalex.github.io/blog/2011/06/15/gsoc</id>
+    <content type="html"><![CDATA[<p>I’ve been accepted to GSoC, and in order to deliver the status updates I’ve created another blog at <a href="http://gsoc.tudalex.com">http://gsoc.tudalex.com</a> Go check it out!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[http://www.devttys0.com/2011/05/reverse-engineering-firmware-linksys-wag120n/]]></title>
+    <link href="http://tudalex.github.io/blog/2011/05/30/httpwwwdevttys0com201105reverse-engineering-firmware-linksys-wag120n/"/>
+    <updated>2011-05-30T00:00:00+03:00</updated>
+    <id>http://tudalex.github.io/blog/2011/05/30/httpwwwdevttys0com201105reverse-engineering-firmware-linksys-wag120n</id>
+    <content type="html"><![CDATA[<p><a href="http://www.devttys0.com/2011/05/reverse-engineering-firmware-linksys-wag120n/">http://www.devttys0.com/2011/05/reverse-engineering-firmware-linksys-wag120n/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Seth's Blog: The triumph of coal marketing]]></title>
+    <link href="http://tudalex.github.io/blog/2011/03/23/seths-blog-the-triumph-of-coal-marketing/"/>
+    <updated>2011-03-23T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2011/03/23/seths-blog-the-triumph-of-coal-marketing</id>
+    <content type="html"><![CDATA[<p>Seth&#8217;&rsquo;s Blog: The triumph of coal marketing</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[startupquote:
+
+If you don’t fail at least 90 percent of the time, you’re not aiming high enough.
+- Alan Kay
+]]></title>
+    <link href="http://tudalex.github.io/blog/2011/02/02/startupquote-if-you-dont-fail-at-least-90/"/>
+    <updated>2011-02-02T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2011/02/02/startupquote-if-you-dont-fail-at-least-90</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[myNoSQL: Apache Whirr: Cloud Common Service API]]></title>
+    <link href="http://tudalex.github.io/blog/2011/01/22/mynosql-apache-whirr-cloud-common-service-api/"/>
+    <updated>2011-01-22T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2011/01/22/mynosql-apache-whirr-cloud-common-service-api</id>
+    <content type="html"><![CDATA[<p>myNoSQL: Apache Whirr: Cloud Common Service APIWhirr:</p>
+
+<p>A cloud-neutral way to run services. You don’t have to worry about the idiosyncrasies of each provider.
+A common service API. The details of provisioning are particular to the service.
+Smart defaults for services. You can get a properly configured system running quickly, while…</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[via The Doghouse Diaries]]></title>
+    <link href="http://tudalex.github.io/blog/2011/01/19/via-the-doghouse-diaries/"/>
+    <updated>2011-01-19T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2011/01/19/via-the-doghouse-diaries</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[And this is how my CS homework looks like.]]></title>
+    <link href="http://tudalex.github.io/blog/2011/01/10/and-this-is-how-my-cs-homework-looks-like/"/>
+    <updated>2011-01-10T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2011/01/10/and-this-is-how-my-cs-homework-looks-like</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[startupquote:
+
+An invention that is quickly accepted will turn out to be a rather trivial alteration of something that has already existed.
+- Edwin Land
+]]></title>
+    <link href="http://tudalex.github.io/blog/2010/12/18/startupquote-an-invention-that-is-quickly/"/>
+    <updated>2010-12-18T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/12/18/startupquote-an-invention-that-is-quickly</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[]]></title>
+    <link href="http://tudalex.github.io/blog/2010/12/18/"/>
+    <updated>2010-12-18T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/12/</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cand te lasa scanner-ul, nu ai altceva de facut decat sa iti construiesti propriul studio de copiere caiete.]]></title>
+    <link href="http://tudalex.github.io/blog/2010/12/17/cand-te-lasa-scanner-ul-nu-ai-altceva-de-facut/"/>
+    <updated>2010-12-17T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/12/17/cand-te-lasa-scanner-ul-nu-ai-altceva-de-facut</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dacie on dacie]]></title>
+    <link href="http://tudalex.github.io/blog/2010/11/29/dacie-on-dacie/"/>
+    <updated>2010-11-29T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/11/29/dacie-on-dacie</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[startupquote:
+
+The way to get started is to quit talking and begin doing.
+- Walt Disney
+]]></title>
+    <link href="http://tudalex.github.io/blog/2010/11/16/startupquote-the-way-to-get-started-is-to-quit/"/>
+    <updated>2010-11-16T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/11/16/startupquote-the-way-to-get-started-is-to-quit</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[startupquote:
+
+The best way to predict the future is to invent it.
+- Alan Kay
+]]></title>
+    <link href="http://tudalex.github.io/blog/2010/11/15/startupquote-the-best-way-to-predict-the-future/"/>
+    <updated>2010-11-15T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/11/15/startupquote-the-best-way-to-predict-the-future</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[alexmarinescu:
+
+You are aweasome
+]]></title>
+    <link href="http://tudalex.github.io/blog/2010/11/15/alexmarinescu-you-are-aweasome/"/>
+    <updated>2010-11-15T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/11/15/alexmarinescu-you-are-aweasome</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sa nu mai spuneti ca nu avem artisti talentati... si hazli!]]></title>
+    <link href="http://tudalex.github.io/blog/2010/11/11/sa-nu-mai-spuneti-ca-nu-avem-artisti-talentati-si/"/>
+    <updated>2010-11-11T00:00:00+02:00</updated>
+    <id>http://tudalex.github.io/blog/2010/11/11/sa-nu-mai-spuneti-ca-nu-avem-artisti-talentati-si</id>
+    <content type="html"><![CDATA[<p>Sa nu mai spuneti ca nu avem artisti talentati&hellip; si hazli!PS: I think it is already a proper portfolio!</p>
+]]></content>
+  </entry>
+  
+</feed>
